@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.table{
+  background: rgb(39, 43, 51);
+}
+.container{
+  width: 1140px;
+  margin: auto;
+}
+.tr{
+  width: 650px;
+  height: 220px;
+  background: rgba(60, 62, 68, 0.73);
+  border-radius: 10px;
+  display: flex;
+  margin:10px ;
+  overflow: hidden;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.td{
+  padding: 10px;
+}
+.Name{
+  color: #fff;
+  font-weight: 700;
+  font-size:30px;
+}
+.Name:hover{
+  color: rgb(255, 152, 0);
+}
+.Alive{
+  color: #fff;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  margin-top: 8px;
+}
+.Location{
+  color: rgb(158, 158, 158);
+  font-size: 18px;
+  margin-top: 15px;
+}
+.Expanse{
+  color: #fff;
+  margin-top: 5px;
+}
+.Expanse:hover{
+  color: rgb(255, 152, 0);
+}
+.Seen{
+  color: rgb(158, 158, 158);
+  font-size: 18px;
+  margin-top: 15px;
+}
+.Schwifty{
+  color: #fff;
+  margin-top: 5px;
+}
+.Schwifty:hover{
+  color: rgb(255, 152, 0);
+}
