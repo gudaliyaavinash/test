@@ -23,7 +23,7 @@ function App() {
                     {
                         data.map((el) => {
                             return <tr className='tr'>
-                                <td className='img'><img src={el.image} alt="" width="100%" height="220px" /></td>
+                                <td className='img'><img className="imag" src={el.image} alt=""  /></td>
                                 <td className='td'>
                                     <ul>
                                         <li className='Name'>{el.name}</li>
