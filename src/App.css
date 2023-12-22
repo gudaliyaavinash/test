@@ -95,15 +95,15 @@
   .container{
       width: 590px;
   }
-  /* .tr{
-    width: 550px;
-  } */
+  .tr{
+    width: 100%;
+  }
 }
 @media  (max-width: 576px) {
   .container{
       width: 300px;
   }
-  /* .tr{
-    width: 550px;
-  } */
+  .tr{
+    width: 100%;
+  }
 }
