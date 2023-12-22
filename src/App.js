@@ -17,9 +17,9 @@ function App() {
     }, [])
 
   return (
-    <div className="App">
-        <table className='table'>
-                <div className="flex">
+    <div className="App table">
+        <table className='container'>
+                <div className="flex just-center">
                     {
                         data.map((el) => {
                             return <tr className='tr'>
